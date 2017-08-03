@@ -1,11 +1,12 @@
 #!/bin/sh
 ###########################################################
 #
-# script to stop spigot process
+# script to stop paperspigot process
 #
 # (c) 2016 nimmis <kjell.havneskold@gmail.com>
+# (c) 2017 OwnageTechGeek <talentcmc@gmx.com>
 #
 ###########################################################
 
-supervisorctl stop spigot
+supervisorctl stop paperspigot
 
