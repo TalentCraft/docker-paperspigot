@@ -35,12 +35,12 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-threshold: 100.0
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
+  whitelist: You are not permitted to join this server!
+  unknown-command: Command does not exist.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: Server is currently restarting!
 timings:
   enabled: true
   verbose: true
@@ -85,7 +85,7 @@ world-settings:
     mob-spawn-range: 4
     nerf-spawner-mobs: false
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 1
       hide-blocks:
       - 14
